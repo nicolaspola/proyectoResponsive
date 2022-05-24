@@ -206,8 +206,7 @@ nav{
 .precio-info {
     font-size: 0.9rem;
     font-weight: 600;
-    color: rgb(63, 234, 171);
-    text-shadow: 0.8px 0.8px 0.8px black;
+    color: black;
 }
 
 .descripcion-info {
@@ -302,8 +301,7 @@ nav{
 .precio-taller {
     font-size: 0.9rem;
     font-weight: 600;
-    color: rgb(63, 234, 171);
-    text-shadow: 0.8px 0.8px 0.8px black;
+    color: black;  
 }
 
 .descripcion-taller {
