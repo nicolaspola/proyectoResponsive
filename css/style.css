@@ -161,6 +161,10 @@ nav{
 /* estilos section dos */
 .section-dos{
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .section-dos h3{
     text-align: center;
@@ -203,6 +207,7 @@ nav{
     font-size: 0.9rem;
     font-weight: 600;
     color: rgb(63, 234, 171);
+    text-shadow: 0.8px 0.8px 0.8px black;
 }
 
 .descripcion-info {
@@ -230,11 +235,31 @@ nav{
     background-color: rgba(206, 203, 203, 0.882);
 
 }
+.ver-catalogo{
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    background-color: #98B27B;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    box-shadow: 2px 6px 20px rgba(75, 75, 75, 0.742);
+    transition: 0.8s;
+    margin-top: 2rem;
+}
+.ver-catalogo:hover {
+    transition: 0.8s;
+    background-color: #d2e7bb;
+}
 
 /* estilos section tres */
 
 .section-tres{
     margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .section-tres h4{
     text-align: center;
@@ -278,6 +303,7 @@ nav{
     font-size: 0.9rem;
     font-weight: 600;
     color: rgb(63, 234, 171);
+    text-shadow: 0.8px 0.8px 0.8px black;
 }
 
 .descripcion-taller {
@@ -305,6 +331,23 @@ nav{
     background-color: rgba(206, 203, 203, 0.882);
 
 }
+.ver-talleres {
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    background-color: #98B27B;
+    border-radius: 0.2rem;
+    font-size: 0.9rem;
+    padding: 0.3rem;
+    box-shadow: 2px 6px 20px rgba(75, 75, 75, 0.742);
+    transition: 0.8s;
+    margin-top: 2rem;
+}
+.ver-talleres:hover {
+    transition: 0.8s;
+    background-color: #d2e7bb;
+}
+
 
 /* estilos footer */
 
