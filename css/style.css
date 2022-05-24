@@ -8,6 +8,13 @@
     
 }
 
+body{
+    background-image: url(../img/body/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
 header{
     width: 100%;
     height: 100vh;
@@ -150,6 +157,206 @@ nav{
     background-size: cover;
     background-position: center;
 }
+
+/* estilos section dos */
+.section-dos{
+    margin-top: 2rem;
+}
+.section-dos h3{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.productos-destacados{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-around;
+}
+.producto-destacado-uno{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: white;
+    width: 10rem;
+    height: 16rem;
+    background-image: url(../img/productos/producto2.jpg);
+    background-size: contain;
+    background-position: center;
+    box-shadow: 2px 6px 20px rgba(75, 75, 75, 0.742);
+    border-radius: 0.2rem;
+}
+.info-productos{
+    height: 40%;
+    background-color: white;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    padding: 0.09rem;
+}
+.titulo-info {
+    font-size: 0.7rem;
+    color: black;
+    font-weight: 600;
+}
+
+.precio-info {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(63, 234, 171);
+}
+
+.descripcion-info {
+    display: none;
+}
+
+.boton-padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-info {
+    text-align: center;
+    background-color: rgba(156, 154, 154, 0.882);
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    color: black;
+    transition: 0.8s;
+}
+
+.boton-info:hover {
+    transition: 0.8s;
+    background-color: rgba(206, 203, 203, 0.882);
+
+}
+
+/* estilos section tres */
+
+.section-tres{
+    margin-top: 2rem;
+}
+.section-tres h4{
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.proximos-talleres{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-around;
+}
+.taller-uno{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: white;
+    width: 16rem;
+    height: 16rem;
+    background-image: url(../img/talleres/taller5.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 2px 6px 20px rgba(75, 75, 75, 0.742);
+    border-radius: 0.2rem;
+}
+.info-talleres{
+    height: 40%;
+    background-color: white;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+    padding: 0.05rem;
+}
+.titulo-taller {
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 600;
+}
+
+.precio-taller {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgb(63, 234, 171);
+}
+
+.descripcion-taller {
+    display: none;
+}
+
+.boton-padre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-info {
+    text-align: center;
+    background-color: rgba(156, 154, 154, 0.882);
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    color: black;
+    transition: 0.8s;
+}
+
+.boton-info:hover {
+    transition: 0.8s;
+    background-color: rgba(206, 203, 203, 0.882);
+
+}
+
+/* estilos footer */
+
+.footer-padre {
+    background-color: rgb(33, 33, 33);
+    display: grid;
+    grid-template-areas: "f1 f1 f1 f1"
+                          "f2 f2 f3 f3"
+                          "f4 f4 f4 f4";
+    color: white;
+    font-size: 0.5rem;
+    margin-top: 2rem;
+    
+
+}
+.footer-uno{
+    grid-area: f1;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.footer-dos{
+    grid-area: f2;
+    text-align: center;
+}
+.footer-tres{
+    grid-area: f3;
+    text-align: center;
+}
+.footer-cuatro{
+    grid-area: f4;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    height: 1rem;
+}
+.imgs{
+    width: 10rem;
+}
+.footer-uno img{
+    margin-top: 1rem;
+    width: 50%;
+    
+}
+.footer-cuatro img{
+    width: 5%;
+    margin-right: 1rem;
+    filter: invert(1)
+    
+}
+
+    
 
 /*----MEDIA QUERIES------ */
 
