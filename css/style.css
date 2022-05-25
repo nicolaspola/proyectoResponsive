@@ -95,7 +95,7 @@ nav{
     color: white;
 }
 .bienvenida h1{
-    color: 	rgb(158, 120, 120);
+    color: 	#c8dcb2;
     font-size: 3rem;
     font-weight: bolder;
     text-shadow: 1px 1px 2px black;
@@ -126,6 +126,7 @@ nav{
     box-shadow: 2px 6px 20px black;
     transition: 0.8s;
 }
+
 .botones-bienvenida button:hover{
     background-color: rgba(45, 45, 45, 0.759);
     transition: 0.8s;
@@ -140,12 +141,27 @@ nav{
     margin-top: 2rem;
     padding: 0.2rem;
 }
+.titulo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
+}
+.img-profe{
+    display: none;
+}
+.titulo-section img{
+    width: 50%;
+}
 .titulo-section h3{
     font-size: 1.1rem;
     font-weight: 600;
     width: 10rem;
     
+}
+
+.creaciones span{
+    font-weight:800;
 }
 .titulo-section p{
     font-size: 0.8rem;
@@ -175,7 +191,7 @@ nav{
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3.5rem;
     justify-content: space-around;
 }
 .producto-destacado-uno{
@@ -192,7 +208,8 @@ nav{
 }
 .info-productos{
     height: 40%;
-    background-color: white;
+    background-image: url(../img/body/fondo3.jpg);
+    background-size: cover;
     border-bottom-left-radius: 0.2rem;
     border-bottom-right-radius: 0.2rem;
     padding: 0.09rem;
@@ -221,7 +238,7 @@ nav{
 
 .boton-info {
     text-align: center;
-    background-color: rgba(156, 154, 154, 0.882);
+    background-color: #c8dcb2;
     border-radius: 0.2rem;
     padding: 0.2rem;
     font-size: 0.8rem;
@@ -231,7 +248,7 @@ nav{
 
 .boton-info:hover {
     transition: 0.8s;
-    background-color: rgba(206, 203, 203, 0.882);
+    background-color: #e6ebe1;
 
 }
 .ver-catalogo{
@@ -269,13 +286,12 @@ nav{
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 4rem;
+    gap: 5rem;
     justify-content: space-around;
 }
 .taller-uno{
     display: flex;
     flex-direction: column-reverse;
-    background-color: white;
     width: 16rem;
     height: 16rem;
     background-image: url(../img/talleres/taller5.jpg);
@@ -287,7 +303,8 @@ nav{
 }
 .info-talleres{
     height: 40%;
-    background-color: white;
+    background-image: url(../img/body/fondo3.jpg);
+    background-size: cover;
     border-bottom-left-radius: 0.2rem;
     border-bottom-right-radius: 0.2rem;
     padding: 0.05rem;
@@ -316,7 +333,7 @@ nav{
 
 .boton-info {
     text-align: center;
-    background-color: rgba(156, 154, 154, 0.882);
+    background-color:#c8dcb2;
     border-radius: 0.2rem;
     padding: 0.2rem;
     font-size: 0.8rem;
@@ -326,7 +343,7 @@ nav{
 
 .boton-info:hover {
     transition: 0.8s;
-    background-color: rgba(206, 203, 203, 0.882);
+    background-color: #e6ebe1;
 
 }
 .ver-talleres {
@@ -399,7 +416,7 @@ nav{
 
     
 
-/*----MEDIA QUERIES------ */
+/*----MEDIA QUERIES INDEX------ */
 
 @media screen and (min-width: 766px){
     
@@ -432,4 +449,197 @@ nav{
        transition: 0.8s;
        color: rgb(158, 120, 120);
    }
+
+   /* -----MQ section uno------ */
+
+   .carousel{
+       width: 50%;
+   }
+   .creaciones{
+       width: 70%;
+   }
+   .img-profe{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+
+   /* ------MQ section dos------- */
+
+   .productos-destacados{
+       gap: 6rem;
+       
+   }
+   .producto-destacado-uno{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 14rem;
+        height: 23rem;
+   }
+   .info-productos{
+       padding: 0.5rem;
+   }
+   .descripcion-info {
+        display: block;
+        font-size: 0.8rem;
+        margin-top: -1rem;
+    }
+    
+    /* --------MQ section tres------- */
+
+    .proximos-talleres{
+        gap: 6rem;
+        
+    }
+    .taller-uno{
+         background-size: cover;
+         background-repeat: no-repeat;
+         width: 18rem;
+         height: 23rem;
+    }
+    .info-talleres{
+        padding: 0.3rem;
+    }
+    .descripcion-taller {
+         display: block;
+         font-size: 0.8rem;
+         margin-top: -1rem;
+     }
+   
+   }
+   /* -------MQ footer---------- */
+   .footer-uno img{
+       width: 20%;
+   }
+   .footer-dos p{
+       font-size: 0.8rem;
+
+   }
+   .footer-tres p{
+    font-size: 0.8rem;
+   }
+   .footer-cuatro{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       height: 2rem;
+       padding-left: 10px;
+       padding-right: 10px;
+   }
+   .footer-cuatro p{
+       margin-top: 1rem;
+       font-size: 0.8rem;
+   }
+   .imgs{
+       width: 20%;
+   }
+
+/* -------------------------------------------HTML NOSOTROS-------------------------------------------------- */
+
+
+/* -------------------------------------------HTML PRODUCTOS-------------------------------------------------- */
+/* -------------------------------------------HTML TALLERES-------------------------------------------------- */
+.header-dos{
+    background-image: none;
+    height: 20vh;
 }
+.section-talleres{
+    margin-top: 5rem;
+}
+.row-taller{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 10rem;
+}
+.taller{
+    background-image: url(../img/talleres/fondomain22.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 22rem;
+    height: 17rem;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 2px 6px 20px rgba(75, 75, 75, 0.742);
+    
+}
+.info-taller{
+    background-image: url(../img/body/fondo3.jpg);
+    background-size: cover;
+    width: 40%;
+    padding: 1rem;
+}
+.taller-titulo{
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+.taller-descripcion{
+    text-align: center;
+}
+.especificacion-taller{
+    margin-top: 2rem;
+    width: 80%;
+}
+.esp-titulo{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.esp-hora{
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+.esp-ubicacion{
+    font-size: 0.8rem;
+}
+.esp-texto{
+    font-size: 0.9rem;
+}
+.esp-texto-dos{
+    font-size: 0.9rem;
+}
+
+.esp-boton{
+    background-color: #c8dcb2;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    box-shadow: 2px 6px 20px rgba(75, 75, 75, 0.742);
+
+}
+.esp-boton:hover{
+    background-color: #d2e7bb;
+    cursor: pointer;
+}
+
+/* ------MEDIA QUERIES TALLERES--------- */
+
+/* MQ main*/
+@media screen and (min-width: 766px){
+    .row-taller{
+        flex-direction: row;
+        }
+    
+    .taller{
+        background-image: url(../img/talleres/fondomain22.jpg);
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        width: 28rem;
+        height: 17rem;
+        display: flex;
+        flex-direction: row-reverse;
+        box-shadow: 2px 6px 20px rgba(75, 75, 75, 0.742);
+        }
+        .especificacion-taller{
+            width: 45%;
+        }
+}
+
+/* -------------------------------------------HTML CONTACTO-------------------------------------------------- */
