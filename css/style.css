@@ -362,6 +362,12 @@ nav{
     transition: 0.8s;
     background-color: #d2e7bb;
 }
+.paginas{
+    display: flex;
+    justify-content: center;
+    background: none;
+    color: #98B27B;
+}
 
 
 /* estilos footer */
@@ -534,10 +540,27 @@ nav{
        width: 20%;
    }
 
+
 /* -------------------------------------------HTML NOSOTROS-------------------------------------------------- */
 
 
 /* -------------------------------------------HTML PRODUCTOS-------------------------------------------------- */
+.productos-titulo h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.listado-productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 /* -------------------------------------------HTML TALLERES-------------------------------------------------- */
 .header-dos{
     background-image: none;
